@@ -1,0 +1,116 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+}
+header, main, footer {
+  padding-left: 300px;
+}
+.container {
+	width: 100%;
+	max-width: 100%;
+	padding: 0 15px;
+}
+
+/*--- Side Nav ------------------------------------------------------------------------------*/
+ul.side-nav.fixed li.logo {
+	height: 58px;
+    text-align: center;
+    background-color: #232e3d;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+ul.side-nav.fixed li.logo a {
+	display: block;
+	padding: 7px;
+}
+ul.side-nav.fixed li.logo img {
+	width: 110px;
+}
+
+ul.side-nav.fixed {
+    overflow: hidden
+}
+
+ul.side-nav.fixed li a {
+    font-size: 16px;
+    line-height: 44px;
+    height: 44px;
+    padding: 0 15px
+}
+
+ul.side-nav.fixed ul.collapsible-accordion a.collapsible-header {
+    padding: 0 15px;
+}
+/*--- End Nav ------------------------------------------------------------------------------*/
+/*--- Header ------------------------------------------------------------------------------*/
+.header {
+	padding: 7px;
+	height: 58px;
+	background-color: #232e3d;
+}
+.header .container {
+	padding: 0;
+}
+.header .top-nav {
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1; /* Fix for IE7 */
+	*display: inline; /* Fix for IE7 */
+	padding: 4px;
+}
+.header .top-nav i {
+	color: #fff;
+	font-size: 33px;
+}
+.admin-menu {
+	float: right;
+	margin: 0;
+}
+.admin-menu > li {
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1; /* Fix for IE7 */
+	*display: inline; /* Fix for IE7 */
+	
+}
+.admin-menu > li > a {
+	display: block;
+	color: #fff;
+	padding: 12px 7px;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+}
+.admin-menu > li a i {
+	margin-right: 3px;
+}
+.admin-menu .dropdown-content {
+	background-color: #2a374a;
+}
+.admin-menu .dropdown-content li>a, .dropdown-content li>span {
+	color: #fff;
+}
+.admin-menu .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
+	background-color: #dd3004;
+}
+.dropdown-content li > a > i {
+	margin: 0 5px 0 0;
+	font-size: 18px;
+}
+.admin-menu > li:hover > a {
+	color: #dd3004;
+}
+/*--- End header ------------------------------------------------------------------------------*/
+/*--- Footer ----------------------------------------------------------------------------------*/
+.page-footer {
+	background-color: #232e3d;
+}
+/*--- End footer ------------------------------------------------------------------------------*/
