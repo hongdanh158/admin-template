@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="minimum-scale=1.0, maximum-scale=2.0, width=device-width, user-scalable=yes" name="viewport" />
-	<title>Admin pabel</title>
+	<title>Admin Template</title>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.css">
