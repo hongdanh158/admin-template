@@ -15,24 +15,4 @@ $(function() {
       }
     });
   }
-  $('#btn-nav-desktop').click(function() {
-    if ($('.side-nav').hasClass('small')) {
-      $('.side-nav').removeClass('small');
-    }
-    else {
-      $('.side-nav').addClass('small');
-    }
-    if ($('.main').hasClass('nav-small')) {
-      $('.main').removeClass('nav-small');
-    }
-    else {
-      $('.main').addClass('nav-small');
-    }
-    if ($('.page-footer').hasClass('footer-small')) {
-      $('.page-footer').removeClass('footer-small');
-    }
-    else {
-      $('.page-footer').addClass('footer-small');
-    }
-  });
 });

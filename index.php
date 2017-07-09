@@ -49,7 +49,6 @@
   <header class="header">
     <div class="container">
       <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a>
-      <a href="#" id="btn-nav-desktop" class="btn-nav-desktop"><i class="material-icons">menu</i></a>
       <ul class="admin-menu">
         <li>
           <a class='config-button' href='#' data-activates='config'><i class="fa fa-cog"></i> Cấu hình </a>

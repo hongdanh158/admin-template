@@ -8,6 +8,9 @@ body {
 	font-size: 16px;
 	color: rgba(0,0,0,0.9);
 }
+a:active, a:focus {
+	outline: 0;
+}
 .main, .page-footer {
   padding-left: 280px;
 }
@@ -18,13 +21,7 @@ body {
 }
 
 /*--- Side Nav ------------------------------------------------------------------------------*/
-.side-nav.fixed {
-	-webkit-transition: all .25s ease-in-out;
-	   -moz-transition: all .25s ease-in-out;
-	    -ms-transition: all .25s ease-in-out;
-	     -o-transition: all .25s ease-in-out;
-	        transition: all .25s ease-in-out;
-}
+
 .side-nav.fixed li.logo {
 	height: 58px;
     text-align: center;
@@ -71,54 +68,6 @@ body {
 	vertical-align: top;
 	zoom: 1; /* Fix for IE7 */
 	*display: inline; /* Fix for IE7 */
-}
-.side-nav.small {
-	width: 110px;
-}
-.main.nav-small, .page-footer.footer-small {
-	padding-left: 110px;
-}
-.side-nav.small > li {
-	padding: 5px 30px;
-	height: 70px;
-	text-align: center;
-}
-.side-nav.small > li > a, .side-nav.small ul.collapsible-accordion a.collapsible-header {
-	text-align: center;
-	padding: 0;
-	width: 50px;
-	height: 50px;
-	-webkit-transition: all .25s ease-in-out;
-	   -moz-transition: all .25s ease-in-out;
-	    -ms-transition: all .25s ease-in-out;
-	     -o-transition: all .25s ease-in-out;
-	        transition: all .25s ease-in-out;
-}
-.side-nav.small i, .side-nav.small .collapsible-header i,
-.side-nav.small ul.collapsible-accordion a.collapsible-header i {
-	display: block;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	font-size: 22px;
-	line-height: 48px;
-	border-radius: 100px;
-	border: 1px solid #e8e8e8;
-	-webkit-transition: all .25s ease-in-out;
-	   -moz-transition: all .25s ease-in-out;
-	    -ms-transition: all .25s ease-in-out;
-	     -o-transition: all .25s ease-in-out;
-	        transition: all .25s ease-in-out;
-}
-.side-nav.small li .text {
-	display: none;
-}
-.side-nav.small li > a:hover, .side-nav.small ul.collapsible-accordion a.collapsible-header:hover{
-	background: none;
-}
-.side-nav.small li > a:hover i, .side-nav.small ul.collapsible-accordion a.collapsible-header:hover i {
-	border-color: #dd3004;
-	color: #dd3004;
 }
 /*--- End Nav ------------------------------------------------------------------------------*/
 /*--- Header ------------------------------------------------------------------------------*/
@@ -168,11 +117,6 @@ body {
 	display: block;
 	color: #fff;
 	padding: 12px 7px;
-	-webkit-transition: all .25s ease-in-out;
-	   -moz-transition: all .25s ease-in-out;
-	    -ms-transition: all .25s ease-in-out;
-	     -o-transition: all .25s ease-in-out;
-	        transition: all .25s ease-in-out;
 }
 .admin-menu > li a i {
 	margin-right: 3px;
@@ -198,10 +142,5 @@ body {
 .page-footer {
 	background-color: #232e3d;
 	padding-top: 0;
-	-webkit-transition: all .25s ease-in-out;
-	   -moz-transition: all .25s ease-in-out;
-	    -ms-transition: all .25s ease-in-out;
-	     -o-transition: all .25s ease-in-out;
-	        transition: all .25s ease-in-out;
 }
 /*--- End footer ------------------------------------------------------------------------------*/
