@@ -14,6 +14,9 @@ a:active, a:focus {
 .main, .page-footer {
   padding-left: 280px;
 }
+.main {
+	min-height: 598px;
+}
 .container {
 	width: 100%;
 	max-width: 100%;
@@ -55,6 +58,7 @@ a:active, a:focus {
 .side-nav li > a i, .side-nav li > a > [class^="mdi-"], 
 .side-nav li > a li > a >[class*="mdi-"], .side-nav li > a i.material-icons {
 	margin-right: 5px;
+	font-size: 20px;
 }
 .side-nav .collapsible-header i {
 	font-size: 16px;
@@ -68,6 +72,20 @@ a:active, a:focus {
 	vertical-align: top;
 	zoom: 1; /* Fix for IE7 */
 	*display: inline; /* Fix for IE7 */
+}
+.side-nav li.active {
+	background-color: #dd3004;
+}
+.side-nav li.active > a,.side-nav li.active > a i {
+	color: #fff;
+}
+.side-nav.fixed li:not(.logo) a:hover, .side-nav .collapsible-header:hover, 
+.side-nav.fixed .collapsible-header:hover {
+	background-color: #dd3004;
+	color: #fff;
+}
+.side-nav.fixed li a:hover i, .side-nav .collapsible-header:hover i, .side-nav.fixed .collapsible-header:hover {
+	color: #fff;
 }
 /*--- End Nav ------------------------------------------------------------------------------*/
 /*--- Header ------------------------------------------------------------------------------*/
@@ -140,7 +158,14 @@ a:active, a:focus {
 /*--- End header ------------------------------------------------------------------------------*/
 /*--- Footer ----------------------------------------------------------------------------------*/
 .page-footer {
-	background-color: #232e3d;
+	background-color: #fff !important;
+	border-top: 1px solid #e8e8e8;
 	padding-top: 0;
 }
+.page-footer .footer-copyright  {
+	color: #444;
+}
 /*--- End footer ------------------------------------------------------------------------------*/
+.main .container.body {
+	padding: 15px 30px;
+}
