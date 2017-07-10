@@ -23,7 +23,7 @@ a:active, a:focus {
 /*--- Side Nav ------------------------------------------------------------------------------*/
 
 .side-nav.fixed li.logo {
-	height: 58px;
+	height: 48px;
     text-align: center;
     background-color: #232e3d;
     -webkit-box-sizing: border-box;
